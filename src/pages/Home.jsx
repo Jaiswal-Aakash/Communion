@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import HeroSection from "../components/Herosection";
+import HeroSection from "../components/HeroSection";
 
 export default function Home() {
   return (
