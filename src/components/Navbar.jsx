@@ -128,7 +128,7 @@ const Navbar = () => {
           <Link to="/upcoming-events" className="block">
             Events
           </Link>
-          <Link to="/create-event" className="block text-blue-600">
+          <Link to="/create-event" className="block">
             Create Event
           </Link>
           <Link to="/about" className="block">
