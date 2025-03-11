@@ -125,17 +125,14 @@ const Navbar = () => {
           <Link to="/" className="block">
             Home
           </Link>
-          <Link to="/communities" className="block">
-            Communities
-          </Link>
-          <Link to="/events" className="block">
+          <Link to="/upcoming-events" className="block">
             Events
           </Link>
-          <Link to="/leaders" className="block text-blue-600">
-            Leaders
+          <Link to="/create-event" className="block text-blue-600">
+            Create Event
           </Link>
-          <Link to="/support" className="block">
-            Support
+          <Link to="/about" className="block">
+            About
           </Link>
         </nav>
 
