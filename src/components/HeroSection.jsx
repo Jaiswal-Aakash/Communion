@@ -69,31 +69,31 @@ const HeroSection = () => {
       </div>
 
       {/* Right Side Events */}
-      <div className="flex flex-row items-center justify-center gap-6 mt-10 lg:mt-0 w-full lg:w-1/2">
+      <div className="flex flex-row items-center justify-center gap-2 sm:gap-6 mt-10 lg:mt-0 w-full lg:w-1/2">
         {/* Event 1 */}
-        <div className="group relative bottom-[-70px] transition-all duration-300 hover:-translate-y-3">
+        <div className="group relative sm:bottom-[-70px] transition-all duration-300 hover:-translate-y-3">
           <img
             src="https://communionhub.org/static/media/hero-6.7d2a560b61405b8f97d2.avif"
             alt="Event 1"
-            className="w-40 sm:w-52 md:w-56 h-60 sm:h-72 rounded-[40px] object-cover shadow-lg"
+            className="w-40 h-60 sm:w-52 sm:h-72 rounded-md sm:rounded-[40px] object-cover shadow-lg"
           />
         </div>
 
         {/* Event 2 */}
-        <div className="group relative transition-all bottom-[-20px] duration-300 hover:-translate-y-3">
+        <div className="group relative sm:bottom-[-20px] transition-all duration-300 hover:-translate-y-3">
           <img
             src="https://communionhub.org/static/media/moments-3.71fa7813105dddf86c48.avif"
             alt="Event 2"
-            className="w-40 sm:w-52 md:w-56 h-60 sm:h-72 rounded-[40px] object-cover shadow-lg"
+            className="w-40 h-60 sm:w-52 sm:h-72 rounded-md sm:rounded-[40px] object-cover shadow-lg"
           />
         </div>
 
         {/* Event 3 */}
-        <div className="group relative top-[-30px] transition-all duration-300 hover:-translate-y-3">
+        <div className="group relative sm:top-[-30px] transition-all duration-300 hover:-translate-y-3">
           <img
             src="https://communionhub.org/static/media/event-1.e37c47c6656e8a5c0043.avif"
             alt="Event 3"
-            className="w-40 sm:w-52 md:w-56 h-60 sm:h-72 rounded-[40px] object-cover shadow-lg"
+            className="w-40 h-60 sm:w-52 sm:h-72 rounded-md sm:rounded-[40px] object-cover shadow-lg"
           />
         </div>
       </div>
